@@ -1,5 +1,5 @@
 # FireJak
-Aplikasi Daftar Pos Pemadam Kebakaran di Jakarta built with VueJS + api.jakarta.go.id
+Aplikasi Daftar Pos Pemadam Kebakaran di Jakarta built with VueJS
 
 [![License](https://img.shields.io/github/license/mazipan/FireJak.svg?maxAge=3600)](https://github.com/mazipan/FireJak) 
 [![Github Issue](https://img.shields.io/github/issues/mazipan/FireJak.svg?maxAge=3600)](https://github.com/mazipan/FireJak/issues) 
@@ -12,7 +12,7 @@ Aplikasi Daftar Pos Pemadam Kebakaran di Jakarta built with VueJS + api.jakarta.
 [![ChuckNorris](https://raw.githubusercontent.com/mazipan/FireJak/master/static/images/FireJak-logo.png)](https://mazipan.github.io/FireJak/)
 
 
-## API
+## Source Data
 https://api.jakarta.go.id/
 
 

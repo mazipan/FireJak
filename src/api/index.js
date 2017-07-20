@@ -14,10 +14,10 @@ function getDataViaApi (path, cb, errorHandler, payload) {
     cb(sessionRes)
   } else {
     Vue.http.get(path, {
+      credentials: true,
       params: payload,
       headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'EHEDFkkTW8/I1JP+niBRmjEnwUyYzY/O2UF+XEYJ87rD/z4+hvQzTaWREe28+lfP'
+        Accept: 'application/json'
       }
     }).then((res) => {
       console.log('You just call api : ', path)
@@ -34,7 +34,8 @@ function getDataViaApi (path, cb, errorHandler, payload) {
 
 export default {
   getPosPemadam: (cb, errorHandler) => {
-    let path = `${basePath}pospemadam`
+    // let path = `${basePath}pospemadam`
+    let path = `/FireJak/static/json/pospemadam.json`
     getDataViaApi(path, cb, errorHandler, null)
   }
 }

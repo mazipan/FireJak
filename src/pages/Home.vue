@@ -1,12 +1,34 @@
 <template>
   <div class="grid__row">
 
-    <h1>-- UNDER DEVELOPMENT --</h1>
-    <h5>See Source Code : 
-      <a href="https://github.com/mazipan/FireJak" target="_blank">
-        https://github.com/mazipan/FireJak
-      </a>
-    </h5>
+    <div class="search">
+      <input class="search__text" type="text" 
+        name="Search" 
+        v-model="searchText" 
+        placeholder="Cari Pos Pemadam Kebakaran">
+    </div>
+
+    <div>
+      <span class="highlight">{{filteredList.length}}</span> Pos Pemadam ditemukan      
+    </div>
+    <ul class="pemadam">
+      <li v-for="pos in filteredList" class="pos">
+        <div class="left">
+          <i data-v-4ed7b5a9="" aria-hidden="true" class="fa fa-fire-extinguisher"></i>          
+        </div>
+        <div class="right">
+          <div class="title" 
+               v-html="highlightText(pos.POS_PEMADAM, searchText)">
+          </div>
+          <div class="alamat"
+               v-html="highlightText(pos.ALAMAT, searchText)">
+          </div>
+          <div class="kel"
+               v-html="highlightText(pos.KELURAHAN, searchText)">
+          </div>          
+        </div>
+      </li>
+    </ul>
     
   </div>
 </template>
@@ -20,63 +42,85 @@ export default {
   },
   data () {
     return {
+      searchText: '',
+      showingPos: []
     }
   },
   computed: {
-    ...mapGetters(['posPemadam'])    
+    ...mapGetters(['posPemadam']),
+    filteredList() {
+      let self = this
+      return self.posPemadam.filter(post => {
+        let isShowing = post.POS_PEMADAM.toLowerCase().includes(self.searchText.toLowerCase()) || post.ALAMAT.toLowerCase().includes(self.searchText.toLowerCase()) || post.KELURAHAN.toLowerCase().includes(self.searchText.toLowerCase())
+
+        return isShowing
+      })
+    }
   },
   methods: {
+    highlightText: function (words, query) {
+      function pregQuote (str) {
+        return (str.trim() + '').replace(/([\\\.\+\*\?\[\^\]\$\(\)\{\}\=\!\<\>\|\:])/g, "\\$1")
+      }
+      var iQuery = new RegExp(pregQuote(query), 'ig')
+      return words.toString().replace(iQuery, function (matchedTxt, a, b) {
+        return ('<span class=\'highlight\'>' + matchedTxt + '</span>')
+      })
+    }
   },
   mounted () {
-    
+    this.$store.dispatch('getPosPemadam')
   }
 }
 
 </script>
 
 <style lang="scss" scoped>
-.empty-state{
-  text-align: center;
-  font-size: 24px;
-  margin-top: 100px;
-  color: #ccc;
+.pemadam{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.pos{
+  padding: 10px;
+  display: table;
+}
+.left{
+  display: table-cell;
+  vertical-align: middle;
 
-  .icon{
-    font-size: 48px;
+  i{
+    font-size: 34px;
+    margin-right: 10px;
   }
 }
+.right{
+  display: table-cell;
+}
+.title{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.alamat, .kel{
+  font-size: 14px;
+  color: #999;
+}
+.search{
+  margin: 10px 0 20px;
+  display: flex;
 
-.chuck{
-  text-align: center;
-  margin-top: 100px;
-  padding: 0 15px;
-
-  &__img{
-    height: 70px;
-  }
-  &__jokes{
-    font-style: italic;
-    font-size: 36px;
+  &__text{
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid #ffb347;
+    border-radius: .5em;
   }
 }
-
-.btn__jokes{
-  margin: 20px;
-  display: inline-block;
-  padding: 13px 20px;
-  outline: none;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: #f05724;
-  color: #fff;
-  border-radius: .5em;
-
-  -webkit-appearance : none;
-  -moz-appearance : none;
-  appearance : none;
-
-  &--wrapper{text-align: center;}
+</style>
+<style>  
+.highlight {
+  color: #0096D9;
 }
 </style>

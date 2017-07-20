@@ -1,13 +1,13 @@
 <template>
   <div class="grid__row about">
     <img v-lazy="'/FireJak/static/images/FireJak-logo.png'" />
-    <h1>Aplikasi Daftar Pos Pemadam Kebakaran di Jakarta built with VueJS + api.jakarta.go.id</h1>
+    <h1>Aplikasi Daftar Pos Pemadam Kebakaran di Jakarta built with VueJS</h1>
     <h5>See Source Code : 
       <a href="https://github.com/mazipan/FireJak" target="_blank">
         https://github.com/mazipan/FireJak
       </a>
     </h5>
-    <h5>API by api.jakarta.go.id : 
+    <h5>Sumber Data : 
       <a href="http://api.jakarta.go.id/" target="_blank">
         api.jakarta.go.id
       </a>

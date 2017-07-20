@@ -1,0 +1,663 @@
+{
+    "status": "success",
+    "count": 73,
+    "data": [
+        {
+            "NO": 1,
+            "POS_PEMADAM": "KANTOR SUDIN DAMKAR JAKARTA PUSAT",
+            "ALAMAT": "Jl. KH. Zainul Arifin No.71",
+            "RT_RW": "-",
+            "KELURAHAN": "Duri Pulo",
+            "LAT": -6.161295,
+            "LNG": 106.809517
+        },
+        {
+            "NO": 2,
+            "POS_PEMADAM": "POS JATI BARU",
+            "ALAMAT": "Jl Taman Jati Baru",
+            "RT_RW": "03 / 01",
+            "KELURAHAN": "Cideng",
+            "LAT": -6.188489,
+            "LNG": 106.813133
+        },
+        {
+            "NO": 3,
+            "POS_PEMADAM": "POS SEK NEG",
+            "ALAMAT": "Jl Majapahit",
+            "RT_RW": "Perkantoran",
+            "KELURAHAN": "Kebon Kelapa",
+            "LAT": -6.168452,
+            "LNG": 106.821449
+        },
+        {
+            "NO": 4,
+            "POS_PEMADAM": "POS BALAI KOTA",
+            "ALAMAT": "Jl.Medan Merdeka Selatan",
+            "RT_RW": "Perkantoran",
+            "KELURAHAN": "Kebon Sirih",
+            "LAT": -6.180704,
+            "LNG": 106.828171
+        },
+        {
+            "NO": 5,
+            "POS_PEMADAM": "POS WALIKOTA",
+            "ALAMAT": "Jl. Tanah Abang I",
+            "RT_RW": "Perkantoran",
+            "KELURAHAN": "Petojo Utara",
+            "LAT": -6.17302,
+            "LNG": 106.819008
+        },
+        {
+            "NO": 6,
+            "POS_PEMADAM": "POS KEBON MELATI",
+            "ALAMAT": "Jl. H Awaludin",
+            "RT_RW": "01 / 17",
+            "KELURAHAN": "Kebon Melati",
+            "LAT": -6.200265,
+            "LNG": 106.814583
+        },
+        {
+            "NO": 7,
+            "POS_PEMADAM": "POS MPR / DPR RI",
+            "ALAMAT": "Komp. Gedung MPR/DPR",
+            "RT_RW": "02 / 03",
+            "KELURAHAN": "Gelora",
+            "LAT": -6.210232,
+            "LNG": 106.800156
+        },
+        {
+            "NO": 8,
+            "POS_PEMADAM": "POS KARET",
+            "ALAMAT": "Jl. Penjernihan Raya",
+            "RT_RW": "15 /06",
+            "KELURAHAN": "Bendungan Hilir",
+            "LAT": -6.201481,
+            "LNG": 106.808395
+        },
+        {
+            "NO": 9,
+            "POS_PEMADAM": "POS  T I M",
+            "ALAMAT": "Jl. Cikini Raya ",
+            "RT_RW": "Gd TIM",
+            "KELURAHAN": "Cikini",
+            "LAT": -6.190298,
+            "LNG": 106.838196
+        },
+        {
+            "NO": 10,
+            "POS_PEMADAM": "SEKTOR JOHAR BARU",
+            "ALAMAT": "Jl. Johar Baru Utara I",
+            "RT_RW": "-",
+            "KELURAHAN": "Johar Baru",
+            "LAT": -6.182116,
+            "LNG": 106.85614
+        },
+        {
+            "NO": 11,
+            "POS_PEMADAM": "SEKTOR CEMPAKA PUTIH",
+            "ALAMAT": "Jl. Komplek Rawakerbo",
+            "RT_RW": "12 / 002",
+            "KELURAHAN": "Cempaka Putih Timur",
+            "LAT": -6.185271,
+            "LNG": 106.873802
+        },
+        {
+            "NO": 12,
+            "POS_PEMADAM": "POS CEMPAKA PUTIH",
+            "ALAMAT": "Jl. Cempaka Putih Barat ",
+            "RT_RW": "01 / 03",
+            "KELURAHAN": "Cempaka Putih Barat",
+            "LAT": -6.174317,
+            "LNG": 106.86026
+        },
+        {
+            "NO": 13,
+            "POS_PEMADAM": "SEKTOR KEMAYORAN",
+            "ALAMAT": "Jl.Angkasa Pura",
+            "RT_RW": "-",
+            "KELURAHAN": "Gng. Sahari Selatan",
+            "LAT": -6.155115,
+            "LNG": 106.842705
+        },
+        {
+            "NO": 14,
+            "POS_PEMADAM": "POS SERDANG",
+            "ALAMAT": "Jl. Lapangan Pors",
+            "RT_RW": "06 / 04",
+            "KELURAHAN": "Serdang",
+            "LAT": -6.162491,
+            "LNG": 106.863014
+        },
+        {
+            "NO": 15,
+            "POS_PEMADAM": "POS BUNGUR",
+            "ALAMAT": "Jl. Bungur Besar Raya",
+            "RT_RW": "-",
+            "KELURAHAN": "Bungur",
+            "LAT": -6.162417,
+            "LNG": 106.84024
+        },
+        {
+            "NO": 16,
+            "POS_PEMADAM": "POS MANGGA DUA",
+            "ALAMAT": "Jl. Mangga Dua Dalam",
+            "RT_RW": "12 / 01",
+            "KELURAHAN": "Mangga Dua Selatan",
+            "LAT": -6.137522,
+            "LNG": 106.826981
+        },
+        {
+            "NO": 17,
+            "POS_PEMADAM": "POS PASAR BARU",
+            "ALAMAT": "Jl. Lautze",
+            "RT_RW": "12 / 05",
+            "KELURAHAN": "Kartini",
+            "LAT": -6.157657,
+            "LNG": 106.834404
+        },
+        {
+            "NO": 18,
+            "POS_PEMADAM": "KANTOR SUDIN DAMKAR JAKARTA UTARA",
+            "ALAMAT": "Jl. Pemadam Kebakaran 113",
+            "RT_RW": "Rt.02/17",
+            "KELURAHAN": "Semper Barat",
+            "LAT": -6.127325,
+            "LNG": 106.927803
+        },
+        {
+            "NO": 19,
+            "POS_PEMADAM": "GADING GRIYA LESTARI",
+            "ALAMAT": "Jl. Belimbing/Perum GGL",
+            "RT_RW": "Rt.012/05",
+            "KELURAHAN": "Sukapura",
+            "LAT": -6.122306,
+            "LNG": 106.869209
+        },
+        {
+            "NO": 20,
+            "POS_PEMADAM": "SEMPER BARAT",
+            "ALAMAT": "Asrama Pemadam Semper Barat",
+            "RT_RW": "Rt.02/17",
+            "KELURAHAN": "Semper Barat",
+            "LAT": -6.12941,
+            "LNG": 106.927277
+        },
+        {
+            "NO": 21,
+            "POS_PEMADAM": "KANTOR SEKTOR II",
+            "ALAMAT": "Jl. Anggrek No.1 (Permai)",
+            "RT_RW": "Rt.01/012",
+            "KELURAHAN": "Rawa Badak Utara",
+            "LAT": -6.11517,
+            "LNG": 106.893387
+        },
+        {
+            "NO": 22,
+            "POS_PEMADAM": "GAYA MOTOR",
+            "ALAMAT": "Jl. Gaya Motor",
+            "RT_RW": "-",
+            "KELURAHAN": "Papanggo",
+            "LAT": -6.134057,
+            "LNG": 106.882355
+        },
+        {
+            "NO": 23,
+            "POS_PEMADAM": "KELAPA GADING",
+            "ALAMAT": "Jl. Pelepah Indah",
+            "RT_RW": "Rw. 07",
+            "KELURAHAN": "Kelapa Gading Barat",
+            "LAT": -6.155604,
+            "LNG": 106.904594
+        },
+        {
+            "NO": 24,
+            "POS_PEMADAM": "BINARIA",
+            "ALAMAT": "Jl. Lodan Raya",
+            "RT_RW": "-",
+            "KELURAHAN": "Ancol",
+            "LAT": -6.129495,
+            "LNG": 106.832977
+        },
+        {
+            "NO": 25,
+            "POS_PEMADAM": "PADEMAGAN BARAT",
+            "ALAMAT": "Jl. Budi Mulya",
+            "RT_RW": "Rt.02/010",
+            "KELURAHAN": "Pademangan Barat",
+            "LAT": -6.132951,
+            "LNG": 106.839851
+        },
+        {
+            "NO": 26,
+            "POS_PEMADAM": "PENJARINGAN",
+            "ALAMAT": "Jl. Tanah Merah/Pasir",
+            "RT_RW": "Rw. 06",
+            "KELURAHAN": "Penjaringan",
+            "LAT": -6.139266,
+            "LNG": 106.909164
+        },
+        {
+            "NO": 27,
+            "POS_PEMADAM": "TELUK GONG",
+            "ALAMAT": "Jl. Taman Permata Indah",
+            "RT_RW": "Rw. 014",
+            "KELURAHAN": "Pejagalan",
+            "LAT": -6.142992,
+            "LNG": 106.776543
+        },
+        {
+            "NO": 28,
+            "POS_PEMADAM": "MUARA KARANG/ANGKE",
+            "ALAMAT": "Jl. Dermaga Pelabuhan",
+            "RT_RW": "Rw. 011",
+            "KELURAHAN": "Pluit",
+            "LAT": -6.108718,
+            "LNG": 106.773544
+        },
+        {
+            "NO": 29,
+            "POS_PEMADAM": "KANTOR SUDIN DAMKAR JAKARTA BARAT",
+            "ALAMAT": "Jl. Tj. Duren Raya No. 1",
+            "RT_RW": "-",
+            "KELURAHAN": "Tjg. Duren Utara",
+            "LAT": -6.173505,
+            "LNG": 106.787872
+        },
+        {
+            "NO": 30,
+            "POS_PEMADAM": "SEKTOR JELAMBAR BARU",
+            "ALAMAT": "Jl. Perdana",
+            "RT_RW": "010/04",
+            "KELURAHAN": "Wijaya Kusuma",
+            "LAT": -6.15269,
+            "LNG": 106.77346
+        },
+        {
+            "NO": 31,
+            "POS_PEMADAM": "POS PALMERAH",
+            "ALAMAT": "Jl. Tj. Duren Raya No. 1",
+            "RT_RW": "-",
+            "KELURAHAN": "Tjg. Duren Utara",
+            "LAT": -6.173505,
+            "LNG": 106.787872
+        },
+        {
+            "NO": 32,
+            "POS_PEMADAM": "SEKTOR TAMBORA",
+            "ALAMAT": "Jl. Tiang Bendera I No. 2",
+            "RT_RW": "003/03",
+            "KELURAHAN": "Roa Malaka",
+            "LAT": -6.133698,
+            "LNG": 106.808449
+        },
+        {
+            "NO": 33,
+            "POS_PEMADAM": "POES KRENDANG",
+            "ALAMAT": "Jl. Krendang Utara",
+            "RT_RW": "003/04",
+            "KELURAHAN": "Krendang Utara",
+            "LAT": -6.148108,
+            "LNG": 106.804169
+        },
+        {
+            "NO": 34,
+            "POS_PEMADAM": "SEKTOR TAMANSARI",
+            "ALAMAT": "Jl. Kemukus No. 1",
+            "RT_RW": "004/06",
+            "KELURAHAN": "Tamansari",
+            "LAT": -6.134359,
+            "LNG": 106.814964
+        },
+        {
+            "NO": 35,
+            "POS_PEMADAM": "SEKTOR KEBON JERUK",
+            "ALAMAT": "Jl. Kebon Jeruk Baru",
+            "RT_RW": "004/11",
+            "KELURAHAN": "Kebon Jeruk",
+            "LAT": -6.190219,
+            "LNG": 106.772736
+        },
+        {
+            "NO": 36,
+            "POS_PEMADAM": "POS KEBON JERUK I",
+            "ALAMAT": "Jl. Kelapa Dua",
+            "RT_RW": "004/01",
+            "KELURAHAN": "Kelapa Dua",
+            "LAT": -6.200394,
+            "LNG": 106.768265
+        },
+        {
+            "NO": 37,
+            "POS_PEMADAM": "SEKTOR KEMBANGAN",
+            "ALAMAT": "Jl. Kembangan Raya No. 2",
+            "RT_RW": "001/02",
+            "KELURAHAN": "Kembangan Selatan",
+            "LAT": -6.184629,
+            "LNG": 106.73851
+        },
+        {
+            "NO": 38,
+            "POS_PEMADAM": "POS JOGLO",
+            "ALAMAT": "Jl. Raya Joglo Komp. Pemadam",
+            "RT_RW": "009/02",
+            "KELURAHAN": "Joglo",
+            "LAT": -6.218401,
+            "LNG": 106.724983
+        },
+        {
+            "NO": 39,
+            "POS_PEMADAM": "SEKTOR CENGKARENG",
+            "ALAMAT": "Jl. Palem Lestari Blok A",
+            "RT_RW": "014/16",
+            "KELURAHAN": "Cengkareng Barat",
+            "LAT": -6.133099,
+            "LNG": 106.71859
+        },
+        {
+            "NO": 40,
+            "POS_PEMADAM": "POS CENGKARENG",
+            "ALAMAT": "Jl. Kamal Raya",
+            "RT_RW": "009/07",
+            "KELURAHAN": "Cengkareng Barat",
+            "LAT": -6.145257,
+            "LNG": 106.728424
+        },
+        {
+            "NO": 41,
+            "POS_PEMADAM": "POS RAWABUAYA",
+            "ALAMAT": "Jl. Hikmah",
+            "RT_RW": "009/03",
+            "KELURAHAN": "Rawabuaya",
+            "LAT": -6.162948,
+            "LNG": 106.731461
+        },
+        {
+            "NO": 42,
+            "POS_PEMADAM": "POS KRESEK",
+            "ALAMAT": "Jl. Nusa Indah II",
+            "RT_RW": "005/12",
+            "KELURAHAN": "Duri Kosambi",
+            "LAT": -6.177287,
+            "LNG": 106.707466
+        },
+        {
+            "NO": 43,
+            "POS_PEMADAM": "SEKTOR KALIDERES",
+            "ALAMAT": "Komp. Perum Citra V Blok C No.10",
+            "RT_RW": "008/10",
+            "KELURAHAN": "Pegadungan",
+            "LAT": -6.119287,
+            "LNG": 106.702934
+        },
+        {
+            "NO": 44,
+            "POS_PEMADAM": "KANTOR SUDIN DAMKAR JAKARTA SELATAN",
+            "ALAMAT": "Jl. Pasar Jum'at",
+            "RT_RW": "-",
+            "KELURAHAN": "Pondok Pinang",
+            "LAT": -6.289077,
+            "LNG": 106.774963
+        },
+        {
+            "NO": 45,
+            "POS_PEMADAM": "POS TANAH KUSIR",
+            "ALAMAT": "Jl. Ciputat Raya",
+            "RT_RW": "-",
+            "KELURAHAN": "Kebayoran Lama Utara",
+            "LAT": -6.250084,
+            "LNG": 106.778015
+        },
+        {
+            "NO": 46,
+            "POS_PEMADAM": "POS GROGOL UTARA",
+            "ALAMAT": "Jl. Kebayoran Lama",
+            "RT_RW": "-",
+            "KELURAHAN": "Grogol Utara",
+            "LAT": -6.213848,
+            "LNG": 106.777786
+        },
+        {
+            "NO": 47,
+            "POS_PEMADAM": "POS CIPULIR",
+            "ALAMAT": "Jl. Ciledug Raya",
+            "RT_RW": "-",
+            "KELURAHAN": "Cipulir",
+            "LAT": -6.238047,
+            "LNG": 106.767799
+        },
+        {
+            "NO": 48,
+            "POS_PEMADAM": "POS KEBAYORAN BARU",
+            "ALAMAT": "Jl. Radio II ",
+            "RT_RW": "-",
+            "KELURAHAN": "Kramat Pela",
+            "LAT": -6.248973,
+            "LNG": 106.79364
+        },
+        {
+            "NO": 49,
+            "POS_PEMADAM": "POS WALIKOTA",
+            "ALAMAT": "Jl. Prapanca Raya No.9",
+            "RT_RW": "-",
+            "KELURAHAN": "Petogogan",
+            "LAT": -6.248482,
+            "LNG": 106.807922
+        },
+        {
+            "NO": 50,
+            "POS_PEMADAM": "POS MAMPANG PRAPATAN",
+            "ALAMAT": "Jl. Kapten Tendean",
+            "RT_RW": "-",
+            "KELURAHAN": "Kuningan Barat",
+            "LAT": -6.239934,
+            "LNG": 106.826683
+        },
+        {
+            "NO": 51,
+            "POS_PEMADAM": "SEKTOR PESANGGRAHAN",
+            "ALAMAT": "Jl. Pesanggrahan Indah",
+            "RT_RW": "-",
+            "KELURAHAN": "Pesanggrahan",
+            "LAT": -6.257311,
+            "LNG": 106.757088
+        },
+        {
+            "NO": 52,
+            "POS_PEMADAM": "POS CIPETE",
+            "ALAMAT": "Jl. Melati",
+            "RT_RW": "-",
+            "KELURAHAN": "Cipete Selatan",
+            "LAT": -6.269702,
+            "LNG": 106.805122
+        },
+        {
+            "NO": 53,
+            "POS_PEMADAM": "POS FATMAWATI",
+            "ALAMAT": "Jl. RS. Fatmawati",
+            "RT_RW": "-",
+            "KELURAHAN": "Cipete Barat",
+            "LAT": -6.298004,
+            "LNG": 106.7948
+        },
+        {
+            "NO": 54,
+            "POS_PEMADAM": "POS TEBET",
+            "ALAMAT": "Jl. Prof. DR. Supomo, SH",
+            "RT_RW": "-",
+            "KELURAHAN": "Tebet Barat",
+            "LAT": -6.240119,
+            "LNG": 106.845474
+        },
+        {
+            "NO": 55,
+            "POS_PEMADAM": "POS CASABLANKA",
+            "ALAMAT": "Jl. Casablanka",
+            "RT_RW": "-",
+            "KELURAHAN": "Menteng Atas",
+            "LAT": -6.221973,
+            "LNG": 106.844955
+        },
+        {
+            "NO": 56,
+            "POS_PEMADAM": "POS KALIBATA",
+            "ALAMAT": "Komp. MPR Kalibata",
+            "RT_RW": "-",
+            "KELURAHAN": "Rawajati",
+            "LAT": -6.253931,
+            "LNG": 106.851059
+        },
+        {
+            "NO": 57,
+            "POS_PEMADAM": "SEKTOR PASAR MINGGU",
+            "ALAMAT": "Jl. Salihara",
+            "RT_RW": "-",
+            "KELURAHAN": "Jatipadang",
+            "LAT": -6.284369,
+            "LNG": 106.83783
+        },
+        {
+            "NO": 58,
+            "POS_PEMADAM": "POS PASAR MINGGU",
+            "ALAMAT": "Jl. Tanjung Barat",
+            "RT_RW": "-",
+            "KELURAHAN": "Pasar Minggu",
+            "LAT": -6.295818,
+            "LNG": 106.840927
+        },
+        {
+            "NO": 59,
+            "POS_PEMADAM": "SEKTOR JAGAKARSA",
+            "ALAMAT": "Jl. M. Kahfi I",
+            "RT_RW": "-",
+            "KELURAHAN": "Jagakarsa",
+            "LAT": -6.315607,
+            "LNG": 106.811668
+        },
+        {
+            "NO": 60,
+            "POS_PEMADAM": "POS CIGANJUR",
+            "ALAMAT": "Jl. Brigif",
+            "RT_RW": "-",
+            "KELURAHAN": "Ciganjur",
+            "LAT": -6.344737,
+            "LNG": 106.798759
+        },
+        {
+            "NO": 61,
+            "POS_PEMADAM": "KANTOR SUDIN DAMKAR JAKARTA TIMUR",
+            "ALAMAT": "Jl. Matraman Raya No. 132",
+            "RT_RW": "-",
+            "KELURAHAN": "Kebon Manggis",
+            "LAT": -6.209573,
+            "LNG": 106.859589
+        },
+        {
+            "NO": 62,
+            "POS_PEMADAM": "POS UTAN KAYU UTARA",
+            "ALAMAT": "Jl. Pengayoman",
+            "RT_RW": "-",
+            "KELURAHAN": "Utan Kayu Utara",
+            "LAT": -6.194242,
+            "LNG": 106.869011
+        },
+        {
+            "NO": 63,
+            "POS_PEMADAM": "POS PISANGAN BARU",
+            "ALAMAT": "Jl. Pasar Induk Cipinang",
+            "RT_RW": "-",
+            "KELURAHAN": "Pisangan Baru",
+            "LAT": -6.213125,
+            "LNG": 106.885414
+        },
+        {
+            "NO": 64,
+            "POS_PEMADAM": "SEKTOR JATI",
+            "ALAMAT": "Jl. Pemuda",
+            "RT_RW": "-",
+            "KELURAHAN": "Jati",
+            "LAT": -6.193324,
+            "LNG": 106.887047
+        },
+        {
+            "NO": 65,
+            "POS_PEMADAM": "POS PULOGADUNG",
+            "ALAMAT": "Jl. Pulo Lentut",
+            "RT_RW": "-",
+            "KELURAHAN": "Pulogadung",
+            "LAT": -6.189303,
+            "LNG": 106.91713
+        },
+        {
+            "NO": 66,
+            "POS_PEMADAM": "POS PULO MAS",
+            "ALAMAT": "Jl. Pulo Mas Barat",
+            "RT_RW": "-",
+            "KELURAHAN": "Kayu Putih",
+            "LAT": -6.179562,
+            "LNG": 106.880905
+        },
+        {
+            "NO": 67,
+            "POS_PEMADAM": "POS WALIKOTA",
+            "ALAMAT": "Jl. Primer",
+            "RT_RW": "-",
+            "KELURAHAN": "Pulo Gebang",
+            "LAT": -6.213042,
+            "LNG": 106.945122
+        },
+        {
+            "NO": 68,
+            "POS_PEMADAM": "POS PENGGILINGAN",
+            "ALAMAT": "Jl. Penggilingan",
+            "RT_RW": "-",
+            "KELURAHAN": "Penggilingan",
+            "LAT": -6.203123,
+            "LNG": 106.930725
+        },
+        {
+            "NO": 69,
+            "POS_PEMADAM": "POS PONDOK KELAPA",
+            "ALAMAT": "Jl. Pondok Kelapa Raya",
+            "RT_RW": "-",
+            "KELURAHAN": "Pondok Kelapa",
+            "LAT": -6.23966,
+            "LNG": 106.934418
+        },
+        {
+            "NO": 70,
+            "POS_PEMADAM": "POS PONDOK BAMBU",
+            "ALAMAT": "Jl. Balai Rakyat",
+            "RT_RW": "-",
+            "KELURAHAN": "Pondok Bambu",
+            "LAT": -6.224913,
+            "LNG": 106.902443
+        },
+        {
+            "NO": 71,
+            "POS_PEMADAM": "POS PONDOK KOPI",
+            "ALAMAT": "Jl. Raya Pondok Kopi",
+            "RT_RW": "-",
+            "KELURAHAN": "Pondok Kopi",
+            "LAT": -6.220552,
+            "LNG": 106.943466
+        },
+        {
+            "NO": 72,
+            "POS_PEMADAM": "SEKTOR MAKASAR",
+            "ALAMAT": "Jl. Kamboja",
+            "RT_RW": "-",
+            "KELURAHAN": "Makasar",
+            "LAT": -6.262653,
+            "LNG": 106.880592
+        },
+        {
+            "NO": 73,
+            "POS_PEMADAM": "POS BATU AMPAR",
+            "ALAMAT": "Jl. Batu Ampar",
+            "RT_RW": "-",
+            "KELURAHAN": "Batu Ampar",
+            "LAT": -6.276557,
+            "LNG": 106.860794
+        }
+    ]
+}

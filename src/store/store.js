@@ -35,7 +35,13 @@ export const actions = {
     commit('setLoading', true)
     api.getPosPemadam((response) => {
       commit('setLoading', false)
-      commit('setPosPemadam', response.body.data)
+      let array = response.body.data
+      array.sort(function(a, b){
+          if(a.POS_PEMADAM < b.POS_PEMADAM) return -1;
+          if(a.POS_PEMADAM > b.POS_PEMADAM) return 1;
+          return 0;
+      })
+      commit('setPosPemadam', array)
     }, () => {
       commit('setLoading', false)
     }, null)

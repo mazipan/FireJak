@@ -1,7 +1,7 @@
 (global => {
   'use strict';
 
-  var versionCache = '-FireJak-20170719-11-30'
+  var versionCache = '-FireJak-20170720-11-30'
 
   // Load the sw-tookbox library.
   importScripts('/FireJak/sw/sw-toolbox.js');
@@ -9,7 +9,6 @@
   // Turn on debug logging, visible in the Developer Tools' console.
   // global.toolbox.options.debug = true;
   toolbox.precache([
-    '/index.html', 
     '/static/images/FireJak-logo.png', 
     '/static/images/loading.gif'
     ]);

@@ -17,10 +17,11 @@ Vue.use(VueLazyload, {
   loading: '/FireJak/static/images/loading.gif',
   attempt: 1
 })
+
 Vue.use(SocialSharing)
 
 if (process.env.NODE_ENV !== 'production') {
-  require('vue-mock')
+  // require('vue-mock')
   Vue.config.devtools = true
 }
 
