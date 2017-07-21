@@ -6249,9 +6249,9 @@ vue-template-es2015-compiler@^1.2.2:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.5.3.tgz#22787de4e37ebd9339b74223bc467d1adee30545"
 
-vue2-simplert@^0.2.8:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/vue2-simplert/-/vue2-simplert-0.2.10.tgz#a08d105f279caa62ef5fd073d4ec7b494c926096"
+vue2-simplert@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/vue2-simplert/-/vue2-simplert-0.5.2.tgz#752b7d75eac73012a125c6ce7ba704039ec83412"
 
 vue@^2.3.4:
   version "2.4.1"

@@ -96,7 +96,7 @@
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.3.4",
     "vue-social-sharing": "^2.2.3",
-    "vue2-simplert": "^0.2.8",
+    "vue2-simplert": "^0.5.2",
     "vuex": "^2.3.1",
     "webpack": "^2.6.1",
     "webpack-bundle-analyzer": "^2.8.2",
