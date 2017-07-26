@@ -1,7 +1,7 @@
 (global => {
   'use strict';
 
-  var versionCache = '-FireJak-20170720-11-30'
+  var versionCache = '-FireJak-20170726-11-37'
 
   // Load the sw-tookbox library.
   importScripts('/FireJak/sw/sw-toolbox.js');

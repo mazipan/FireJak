@@ -8,14 +8,20 @@
 
         <li class="sidebar__item">
           <router-link to="/" @click.native="navigateTo" class="sidebar__link">
-            <i class="fa fa-home"></i> Home
+            <i class="fa fa-home"></i> Beranda
           </router-link>
         </li>
 
         <li class="sidebar__item">
           <router-link to="/about" @click.native="navigateTo" class="sidebar__link">
-            <i class="fa fa-question-circle"></i> About
+            <i class="fa fa-question-circle"></i> Tentang FireJak
           </router-link>
+        </li>
+
+        <li class="sidebar__item">
+          <a href="/demo" class="sidebar__link">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i> Demo Lainnya
+          </a>
         </li>
 
       </ul>

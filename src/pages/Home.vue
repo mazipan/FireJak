@@ -14,7 +14,8 @@
     <ul class="pemadam">
       <li v-for="pos in filteredList" class="pos">
         <div class="left">
-          <i data-v-4ed7b5a9="" aria-hidden="true" class="fa fa-fire-extinguisher"></i>          
+          <img class="icon" 
+               v-lazy="'/FireJak/static/images/Red_Fire_Engine-256x256.png'">        
         </div>
         <div class="right">
           <div class="title" 
@@ -89,8 +90,8 @@ export default {
   display: table-cell;
   vertical-align: middle;
 
-  i{
-    font-size: 34px;
+  .icon{
+    width: 50px;
     margin-right: 10px;
   }
 }
