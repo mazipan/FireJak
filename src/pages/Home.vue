@@ -99,10 +99,18 @@ export default {
 .pos{
   padding: 10px;
   display: table;
+  border-bottom: 1px solid #ccc;
+  width: 98%;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(32, 33, 39, 0.12);
+  margin: 10px 0;
 }
 .left{
   display: table-cell;
   vertical-align: middle;
+  width: 90px;
+  text-align: center;
 
   .icon{
     width: 50px;
