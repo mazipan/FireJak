@@ -1,7 +1,11 @@
 (global => {
   'use strict';
 
-  var versionCache = '-FireJak-20170726-11-37'
+  var now = new Date();
+  var onejan = new Date(now.getFullYear(), 0, 1);
+  var week = Math.ceil( (((now - onejan) / 86400000) + onejan.getDay() + 1) / 7 );
+  var ver = now.toISOString().substring(0, 7);
+  var versionCache = '-FireJak-' + ver + '-' + week
 
   // Load the sw-tookbox library.
   importScripts('/FireJak/sw/sw-toolbox.js');

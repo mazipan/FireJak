@@ -26,10 +26,24 @@
           </div>
           <div class="kel"
                v-html="highlightText(pos.KELURAHAN, searchText)">
-          </div>          
+          </div>  
+          <div>
+             <a 
+              :href="'https://www.google.com/maps/search/?api=1&query=' + 
+              pos.LAT + ',' + pos.LNG" 
+              :alt="pos.POS_PEMADAM" 
+              :title="pos.POS_PEMADAM" 
+              target="_blank" 
+              class="see-map">
+              <i class="fa fa-map-marker"></i> 
+              Lihat Lokasi
+             </a>         
+          </div>         
         </div>
+ 
       </li>
     </ul>
+
     
   </div>
 </template>
@@ -118,6 +132,12 @@ export default {
     border: 1px solid #ffb347;
     border-radius: .5em;
   }
+}
+.see-map{
+  line-height: 2;
+  font-size: 12px;
+  color: #0096D9;
+  text-decoration: none;
 }
 </style>
 <style>  
