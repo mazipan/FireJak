@@ -27,7 +27,7 @@
           <div class="kel"
                v-html="highlightText(pos.KELURAHAN, searchText)">
           </div>  
-          <div>
+          <div class="see-map__wrapper">
              <a 
               :href="'https://www.google.com/maps/search/?api=1&query=' + 
               pos.LAT + ',' + pos.LNG" 
@@ -97,19 +97,19 @@ export default {
   list-style: none;
 }
 .pos{
-  padding: 10px;
+  padding: 1em 0;
   display: table;
-  border-bottom: 1px solid #ccc;
-  width: 98%;
+  border: 1px solid #ddd;
+  width: 100%;
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: 0 1px 3px 0 rgba(32, 33, 39, 0.12);
-  margin: 10px 0;
+  margin: .5em 0;
 }
 .left{
   display: table-cell;
   vertical-align: middle;
-  width: 90px;
+  width: 120px;
   text-align: center;
 
   .icon{
@@ -144,12 +144,16 @@ export default {
 
 .see-map{
   line-height: 2;
-  font-size: 12px;
+  font-size: 14px;
   color: #0096D9;
   background-color: #eee;
-  padding: .3em .5em;
+  padding: .5em;
   text-decoration: none;
   border-radius: .25em;
+
+  &__wrapper{
+    margin-top: .5em;
+  }
 }
 </style>
 <style>  
