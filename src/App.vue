@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import Sidebar from 'components/Sidebar'
-import HeaderSection from 'components/HeaderSection'
+import Sidebar from 'components/Sidebar.vue'
+import HeaderSection from 'components/HeaderSection.vue'
 
 export default {
   name: 'app',
