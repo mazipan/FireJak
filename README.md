@@ -9,7 +9,7 @@
 [![Travis](https://img.shields.io/travis/mazipan/FireJak.svg)](https://travis-ci.org/mazipan/FireJak)
 [![codecov](https://codecov.io/gh/mazipan/FireJak/branch/master/graph/badge.svg)](https://codecov.io/gh/mazipan/FireJak)
 
-[![ChuckNorris](https://raw.githubusercontent.com/mazipan/FireJak/master/static/images/FireJak-logo.png)](https://mazipan.github.io/FireJak/)
+[![FireJak](https://raw.githubusercontent.com/mazipan/FireJak/master/images/FireJak-logo.png)](https://mazipan.github.io/FireJak/)
 
 
 ## Source Data
