@@ -33,11 +33,13 @@ export const mutations = {
 
 export const actions = {
   getPosPemadam ({commit}) {
+    console.log('calling action getPosPemadam()')
     commit('setLoading', true)
     axios.get(`${path}`)
       .then(function (response) {
+        console.log('response ', response.data)
         commit('setLoading', false)
-        let array = response.data
+        let array = response.data.data
         array.sort(function(a, b){
             if(a.POS_PEMADAM < b.POS_PEMADAM) return -1;
             if(a.POS_PEMADAM > b.POS_PEMADAM) return 1;

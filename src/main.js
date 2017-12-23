@@ -9,7 +9,6 @@ import router from './router'
 import store from './store'
 import App from './App.vue'
 
-Vue.use(VueResource)
 Vue.use(VueLazyload, {
   preLoad: 1.3,
   error: '/FireJak/images/loading.gif',
