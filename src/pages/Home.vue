@@ -12,33 +12,35 @@
       <span class="highlight">{{filteredList.length}}</span> Pos Pemadam ditemukan
     </div>
     <ul class="pemadam">
-      <li v-for="(pos, index) in filteredList" :key="pos.NO" class="pos">
-        <div class="left">
-          <img class="icon"
-               v-lazy="'/FireJak/images/Red_Fire_Engine-256x256.png'">
-        </div>
-        <div class="right">
-          <div class="title"
-               v-html="highlightText(pos.POS_PEMADAM, searchText)">
-          </div>
-          <div class="alamat"
-               v-html="highlightText(pos.ALAMAT, searchText)">
-          </div>
-          <div class="kel"
-               v-html="highlightText(pos.KELURAHAN, searchText)">
-          </div>
-          <div class="see-map__wrapper">
-             <a
-              :href="'https://www.google.com/maps/search/?api=1&query=' +
-              pos.LAT + ',' + pos.LNG"
-              :alt="pos.POS_PEMADAM"
-              :title="pos.POS_PEMADAM"
-              target="_blank"
-              class="see-map">
-              <i class="fa fa-map-marker"></i>
-              Lihat Lokasi
-             </a>
-          </div>
+      <li v-for="(pos, index) in filteredList" :key="pos.NO">
+        <div class="pos">
+            <div class="left">
+              <img class="icon"
+                  v-lazy="'/FireJak/images/Red_Fire_Engine-256x256.png'">
+            </div>
+            <div class="right">
+              <div class="title"
+                  v-html="highlightText(pos.POS_PEMADAM, searchText)">
+              </div>
+              <div class="alamat"
+                  v-html="highlightText(pos.ALAMAT, searchText)">
+              </div>
+              <div class="kel"
+                  v-html="highlightText(pos.KELURAHAN, searchText)">
+              </div>
+              <div class="see-map__wrapper">
+                <a
+                  :href="'https://www.google.com/maps/search/?api=1&query=' +
+                  pos.LAT + ',' + pos.LNG"
+                  :alt="pos.POS_PEMADAM"
+                  :title="pos.POS_PEMADAM"
+                  target="_blank"
+                  class="see-map">
+                  <i class="fa fa-map-marker"></i>
+                  Lihat Lokasi
+                </a>
+              </div>
+            </div>
         </div>
 
         <div class="google-ads" v-if="(index > 0) && (index%5 === 0)">
