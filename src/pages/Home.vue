@@ -2,23 +2,23 @@
   <div class="grid__row">
 
     <div class="search">
-      <input class="search__text" type="text" 
-        name="Search" 
-        v-model="searchText" 
+      <input class="search__text" type="text"
+        name="Search"
+        v-model="searchText"
         placeholder="Cari Pos Pemadam Kebakaran">
     </div>
 
     <div>
-      <span class="highlight">{{filteredList.length}}</span> Pos Pemadam ditemukan      
+      <span class="highlight">{{filteredList.length}}</span> Pos Pemadam ditemukan
     </div>
     <ul class="pemadam">
-      <li v-for="pos in filteredList" class="pos">
+      <li v-for="(pos, index) in filteredList" :key="pos.NO" class="pos">
         <div class="left">
-          <img class="icon" 
-               v-lazy="'/FireJak/images/Red_Fire_Engine-256x256.png'">        
+          <img class="icon"
+               v-lazy="'/FireJak/images/Red_Fire_Engine-256x256.png'">
         </div>
         <div class="right">
-          <div class="title" 
+          <div class="title"
                v-html="highlightText(pos.POS_PEMADAM, searchText)">
           </div>
           <div class="alamat"
@@ -26,31 +26,45 @@
           </div>
           <div class="kel"
                v-html="highlightText(pos.KELURAHAN, searchText)">
-          </div>  
+          </div>
           <div class="see-map__wrapper">
-             <a 
-              :href="'https://www.google.com/maps/search/?api=1&query=' + 
-              pos.LAT + ',' + pos.LNG" 
-              :alt="pos.POS_PEMADAM" 
-              :title="pos.POS_PEMADAM" 
-              target="_blank" 
+             <a
+              :href="'https://www.google.com/maps/search/?api=1&query=' +
+              pos.LAT + ',' + pos.LNG"
+              :alt="pos.POS_PEMADAM"
+              :title="pos.POS_PEMADAM"
+              target="_blank"
               class="see-map">
-              <i class="fa fa-map-marker"></i> 
+              <i class="fa fa-map-marker"></i>
               Lihat Lokasi
-             </a>         
-          </div>         
+             </a>
+          </div>
         </div>
- 
+
+        <div class="google-ads" v-if="(index > 0) && (index%5 === 0)">
+
+          <InFeedAdsense
+              root-class="wrapper VueInFeedAdsense"
+              :data-ad-layout-key="layout"
+              :data-ad-client="client"
+              :data-ad-slot="slotInFeed">
+          </InFeedAdsense>
+
+        </div>
+
       </li>
     </ul>
 
-    
+
   </div>
 </template>
 
 <script>
+import mixin from '@/mixins'
+
 export default {
   name: 'HomePage',
+  mixins: [mixin],
   components: {
   },
   data () {
@@ -66,13 +80,13 @@ export default {
     filteredList() {
       let self = this
       return self.posPemadam.filter(post => {
-        
+
         let samePosPemadam = post.POS_PEMADAM.toLowerCase()
           .includes(self.searchText.toLowerCase())
-        
+
         let sameAlamat = post.ALAMAT.toLowerCase()
           .includes(self.searchText.toLowerCase())
-        
+
         let sameKelurahan = post.KELURAHAN.toLowerCase()
           .includes(self.searchText.toLowerCase())
 
@@ -99,6 +113,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.google-ads{
+  width: 90%;
+}
+
 .pemadam{
   padding: 0;
   margin: 0;
@@ -164,7 +182,7 @@ export default {
   }
 }
 </style>
-<style>  
+<style>
 .highlight {
   color: #0096D9;
 }
